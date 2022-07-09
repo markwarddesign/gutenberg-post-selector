@@ -207,7 +207,7 @@ class PostSelector extends Component {
         title: decodeEntities(response.title.rendered),
         id: response.id,
         excerpt: decodeEntities(excerpt),
-        url: response.link,
+        url: response.url,
         date: response.date,
         type: response.type,
         status: response.status
